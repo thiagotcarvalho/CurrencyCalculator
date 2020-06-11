@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    padding: 25px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container {
+    padding: 25px;
+}
+
+.row {
+    padding: 10px;
+}
+
+/* .input-group>.input-group-append {
+    flex: 0 0 20%;
+}
+
+.input-group .input-group-text {
+    width: 100%;
+} */

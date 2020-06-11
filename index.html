@@ -6,9 +6,43 @@
     <title>Currency Calculator</title>
     <!-- BOOTSTRAP CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
+    <h2>Convert US Dollar to Brazilian Real</h2>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="input-group input-group-lg">
+                    <input id="us-dollar" type="number" class="form-control" aria-label="Amount sending" aria-describedby="inputGroup-sizing-lg">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="inputGroup-sizing-lg">USD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="input-group input-group-lg">
+                    <input id="brazilian-real" type="number" class="form-control" aria-label="Amount receiving" aria-describedby="inputGroup-sizing-lg">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="inputGroup-sizing-lg">BRL&nbsp;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="conversion-value">
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
     <!-- BOOTSTRAP JS CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
